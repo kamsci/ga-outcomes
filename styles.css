@@ -1,0 +1,45 @@
+/*AppComponenet*/
+body {
+    min-width: 480px;
+}
+.footer {
+    background-color: lightgrey;
+    height: 200px;
+}
+
+/*HomeComponent*/
+.jumbotron p {
+    color: darkblue;
+}
+.login {
+    padding: 10px;
+}
+
+/*AdminDashComponent*/
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .left-bar {
+        border-bottom: 2px solid darkblue;
+    }
+}
+.cohort-list li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 20px;
+}
+.chart {
+    height: 200px;
+    width: 200px;
+    border: 2px solid darkgray;
+    border-radius: 50%;
+}
+.student-list {
+    list-style: none;
+    font-size: 16px;
+}
+.student-list {
+    padding: 5px;
+}
+.student-info {
+    margin-left: 10px;
+}
