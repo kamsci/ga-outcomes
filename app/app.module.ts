@@ -11,6 +11,9 @@ import { FooterComponent } from './footer.component';
 import { StudentListComponent } from './dashboard/student-list/student-list.component';
 import { DeliverableReviewComponent } from './dashboard/deliverable-review/deliverable-review.component';
 import { DeliverableDueComponent } from './dashboard/deliverable-due/deliverable-due.component';
+import { ManagementComponent } from './management/management.component';
+import { StudentsManageComponent } from './management/students-manage/students-manage.component';
+import { DeliverablesManageComponent } from './management/deliverables-manage/deliverables-manage.component';
 
 import { routing } from './app.routing';
 
@@ -29,7 +32,10 @@ import { routing } from './app.routing';
     AdminDashComponent,
     StudentListComponent,
     DeliverableReviewComponent,
-    DeliverableDueComponent
+    DeliverableDueComponent,
+    ManagementComponent,
+    StudentsManageComponent,
+    DeliverablesManageComponent
   ],
   bootstrap: [ AppComponent]
 })

@@ -1,45 +1,64 @@
 /*AppComponenet*/
 body {
-    min-width: 480px;
+	min-width: 480px;
+	min-height: 100%;
+	padding-bottom: 6rem;
+	position: relative;
 }
 .footer {
-    background-color: lightgrey;
-    height: 200px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
 
 /*HomeComponent*/
 .jumbotron p {
-    color: darkblue;
+	color: darkblue;
 }
 .login {
-    padding: 10px;
+	padding: 10px;
+}
+.login .form-control {
+	display: inline-block;
+	width: 30%;
+	margin-left: 20px;
+}
+.login button {
+	margin-left: 20px;
 }
 
-/*AdminDashComponent*/
+/*AdminDashComponent && ManagementCompnents*/
 @media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
-    .left-bar {
-        border-bottom: 2px solid darkblue;
-    }
 }
-.cohort-list li {
-    list-style: none;
-    display: inline-block;
-    padding: 5px;
-    margin-left: 20px;
+.left-bar {
+	border-bottom: 2px solid darkblue;
+}
+.cohort-list li, .user-list li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	margin-left: 20px;
 }
 .chart {
-    height: 200px;
-    width: 200px;
-    border: 2px solid darkgray;
-    border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	border: 2px solid darkgray;
+	border-radius: 50%;
 }
 .student-list {
-    list-style: none;
-    font-size: 16px;
-}
-.student-list {
-    padding: 5px;
+	list-style: none;
+	font-size: 16px;
+	padding: 5px;
 }
 .student-info {
-    margin-left: 10px;
+	margin-left: 10px;
+}
+
+/*Forms*/
+.ng-invalid input {
+	border: 2px solid red;
 }

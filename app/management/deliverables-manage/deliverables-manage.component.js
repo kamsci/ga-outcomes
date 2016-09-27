@@ -9,20 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomeComponent = (function () {
-    function HomeComponent() {
+var DeliverablesManageComponent = (function () {
+    function DeliverablesManageComponent() {
     }
-    HomeComponent.prototype.onSubmit = function (form) {
-        console.log(form);
-    };
-    HomeComponent = __decorate([
+    DeliverablesManageComponent = __decorate([
         core_1.Component({
-            selector: 'ga-home',
-            templateUrl: 'app/home.component.html'
+            selector: 'ga-deliverables-manage',
+            templateUrl: 'app/management/deliverables-manage/deliverables-manage.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], DeliverablesManageComponent);
+    return DeliverablesManageComponent;
 }());
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+exports.DeliverablesManageComponent = DeliverablesManageComponent;
+//# sourceMappingURL=deliverables-manage.component.js.map

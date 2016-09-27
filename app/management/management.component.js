@@ -9,20 +9,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var HomeComponent = (function () {
-    function HomeComponent() {
+var ManagementComponent = (function () {
+    function ManagementComponent() {
     }
-    HomeComponent.prototype.onSubmit = function (form) {
-        console.log(form);
-    };
-    HomeComponent = __decorate([
+    ManagementComponent = __decorate([
         core_1.Component({
-            selector: 'ga-home',
-            templateUrl: 'app/home.component.html'
+            selector: 'ga-management',
+            templateUrl: 'app/management/management.component.html'
         }), 
         __metadata('design:paramtypes', [])
-    ], HomeComponent);
-    return HomeComponent;
+    ], ManagementComponent);
+    return ManagementComponent;
 }());
-exports.HomeComponent = HomeComponent;
-//# sourceMappingURL=home.component.js.map
+exports.ManagementComponent = ManagementComponent;
+//# sourceMappingURL=management.component.js.map

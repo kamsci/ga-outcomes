@@ -20,6 +20,9 @@ var footer_component_1 = require('./footer.component');
 var student_list_component_1 = require('./dashboard/student-list/student-list.component');
 var deliverable_review_component_1 = require('./dashboard/deliverable-review/deliverable-review.component');
 var deliverable_due_component_1 = require('./dashboard/deliverable-due/deliverable-due.component');
+var management_component_1 = require('./management/management.component');
+var students_manage_component_1 = require('./management/students-manage/students-manage.component');
+var deliverables_manage_component_1 = require('./management/deliverables-manage/deliverables-manage.component');
 var app_routing_1 = require('./app.routing');
 var AppModule = (function () {
     function AppModule() {
@@ -40,7 +43,10 @@ var AppModule = (function () {
                 adminDash_component_1.AdminDashComponent,
                 student_list_component_1.StudentListComponent,
                 deliverable_review_component_1.DeliverableReviewComponent,
-                deliverable_due_component_1.DeliverableDueComponent
+                deliverable_due_component_1.DeliverableDueComponent,
+                management_component_1.ManagementComponent,
+                students_manage_component_1.StudentsManageComponent,
+                deliverables_manage_component_1.DeliverablesManageComponent
             ],
             bootstrap: [app_component_1.AppComponent]
         }), 
